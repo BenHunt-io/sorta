@@ -1,0 +1,29 @@
+{
+  "name": "sorta",
+  "version": "1.0.0",
+  "description": "The sorta amazing sorting library",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/BenHunt-io/sorta.git"
+  },
+  "keywords": [
+    "Sorting",
+    "Algorithm",
+    "Sort",
+    "Javascript",
+    "Quicksort"
+  ],
+  "author": "Ben Hunt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BenHunt-io/sorta/issues"
+  },
+  "homepage": "https://github.com/BenHunt-io/sorta#readme",
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
