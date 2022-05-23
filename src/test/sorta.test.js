@@ -36,3 +36,13 @@ test("Quick sort already sorted", () => {
     expect(arr).toStrictEqual([1,2,3,4,5]);
 
 });
+
+test("Quick sort with custom comparator", () => {
+
+    let arr = [[0,30], [5,10], [15,20]];
+    // a > b == 1, a<=b == 0
+    arr.quicksort((a,b) => a[0] > b[0]);
+
+    expect(arr).toStrictEqual([[0,30],[5,10],[15,20]]);
+
+})
